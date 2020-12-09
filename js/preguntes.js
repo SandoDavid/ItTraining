@@ -18,7 +18,7 @@ function pregunta1(objecte, pregNum) {
     arrRespostes[pregNum] = resposta;
 
     alert("Has escollit resposta" + arrRespostes[pregNum]);
-    debugger;
+   
     switch (pregNum) {
         case 0:
 
