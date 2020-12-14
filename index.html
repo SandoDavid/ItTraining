@@ -24,7 +24,7 @@
               <p>Quines són les clausules obligatòries a una comanda sql</p>
             </div>
             <div class="respostes">
-              <div>
+              <div onclick="pregunta(this)">
                 <input type="radio" value="1" name="resposta" />
                 &nbsp;&nbsp;
                 <label >SELECT</label>
@@ -46,38 +46,38 @@
               </div>
               </div>
             </div> <!-- FINAL <div class="respostes">-->
-            <button  type="button" onclick="pregunta1(this, 0)">Següent >></button>
+            <button  type="button" onclick="pregunta1(this, 0)"     >Següent >></button>
           </section> <!-- FINAL <section id="pregunta-#"> -->
 
           <section class="elementOcult"  id="pregunta2">
             <h2>Pregunta #2</h2>
             <div class="enunciat">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit diam vitae urna pulvinar commodo. Suspendisse tristique eu justo in dignissim. Phasellus ut nibh ornare, porttitor sapien a, eleifend massa?</p>
+              <p>Que signifiquen les sigules sql</p>
             </div>
             <div class="respostes">
               <div>
-                <input type="radio" id="exemple-2-1" />
+                <input type="radio" value="5" name="resposta2" />
                 &nbsp;&nbsp;
-                <label for="exemple-1">Lorem ipsum dolor sit amet</label>
+                <label >Structured Query Language</label>
               </div>
               <div>
-                <input type="checkbox" id="exemple-2-2" />
+                <input type="radio" value="6" name="resposta2"  />
                 &nbsp;&nbsp;
-                <label for="exemple-2">Lorem ipsum dolor sit amet</label>
+                <label > Signal Quest Legend</label>
               </div>
               <div>
-                <input type="text" id="exemple-2-3" name="resposta-1" placeholder="Lorem ipsum dolor sit amet" />
+                <input type="radio" value="7" name="resposta2"  />
+                &nbsp;&nbsp;
+                <label >SQLT</label>
               </div>
               <div>
-                <select id="exemple-2-4">
-                  <option>Lorem ipsum dolor sit amet</option>
-                  <option>Lorem ipsum dolor sit amet</option>
-                  <option>Lorem ipsum dolor sit amet</option>
-                  <option>Lorem ipsum dolor sit amet</option>
-                </select>
+                <input type="radio" value="8" name="resposta2" />
+                &nbsp;&nbsp;
+                <label >SIQL</label>
               </div>
-            </div> <!-- FINAL <div class="respostes"> -->
-            <button>Següent >></button>
+              </div>
+            </div> <!-- FINAL <div class="respostes">-->
+              <button  type="button" onclick="pregunta2(this, 0)">Següent >></button>
           </section>  <!-- FINAL <section id="pregunta-#"> -->
 
           <section class="elementOcult" id="pregunta3">

@@ -32,7 +32,7 @@ function pregunta1(objecte, pregNum) {
             pregunta.classList.add("elementOcult");
 
             
-            pregunta = document.getElementById("pregunta2");
+            pregunta = document.getElementById("pregunta4");
             pregunta.classList.remove("elementVisible");
             pregunta.classList.add("elementVisible");
             break;

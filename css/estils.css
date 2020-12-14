@@ -122,7 +122,7 @@ div.respostes div:hover {
 .elementVisible{
   display: flex;
 }
-
+ 
 label {
   width: 50%;
   font-family: OdinRounded;
@@ -136,6 +136,9 @@ input, select {
   color: #0984e3;
   border: 0px;
   outline: none;
+}
+input[type="text"]:disabled {
+  background: #dddddd;
 }
 
 input[type=text], select {
